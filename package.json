@@ -1,0 +1,45 @@
+{
+  "name": "stripe-sample",
+  "version": "0.1.0",
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "@stripe/react-stripe-js": "1.1.2",
+    "@stripe/stripe-js": "1.11.0",
+    "cors": "^2.8.5",
+    "dom": "^0.0.3",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "1.4.0",
+    "react-dom": "17.0.0",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "^4.0.0",
+    "stripe": "^8.126.0",
+    "typescript": "^3.2.1"
+  },
+  "homepage": "http://localhost:3000/checkout",
+  "proxy": "http://localhost:4242",
+  "scripts": {
+    "start-client": "react-scripts start",
+    "start-server": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "concurrently \"yarn start-client\" \"yarn start-server\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

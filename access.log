@@ -1,0 +1,3 @@
+::ffff:127.0.0.1 - - [25/Nov/2020:01:05:33 +0000] "GET /babel/parser/lib/index.js HTTP/1.1" 404 164 "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+::ffff:127.0.0.1 - - [25/Nov/2020:01:05:34 +0000] "GET /checkout/favicon.ico HTTP/1.1" 404 159 "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+::ffff:127.0.0.1 - - [25/Nov/2020:01:11:06 +0000] "POST /create-payment-intent HTTP/1.1" 200 127 "http://localhost:3000/checkout" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
