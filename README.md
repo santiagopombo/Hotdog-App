@@ -1,6 +1,8 @@
 # HotDog App README
 
-** eCommerce Stripe Integration sample app **
+**eCommerce Stripe Integration sample app**
+
+![hotdogapp](https://user-images.githubusercontent.com/11928927/100178960-ddb5ab80-2e89-11eb-939d-265aae9303f2.png)
 
 ## About
 
