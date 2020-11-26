@@ -1,4 +1,4 @@
-# HotDog App README
+# Hotdog App README
 
 **eCommerce Stripe Integration sample app**
 
