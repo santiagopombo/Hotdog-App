@@ -13,11 +13,12 @@ This is a sample React app built to demonstrate how easy it is to embed a custom
 - The HotdogPinCounter.js & TotalPrice.js components were respectfully "borrowed" from: https://github.com/beauxapps/hotdog-pins/tree/master/src
 
 ## Installation
-- Clone repo or Download file and open in your IDE oof choice.
+- Clone repo or Download file and open in your IDE of choice.
 - Go to your Stripe Dashboard, copy your API Test keys and update the files App.jsx with pk.test (line 12) & server.js with sk.test (line 6). Save.
 - Open Terminal and cd into the updated project directory `Hotdog App`
 - Install dependencies `npm install`
-- Run server and client `npm start` or `yarn start-server` `yarn start-client`
+- Install Yarn `brew install yarn`
+- Run server and client `yarn start-server` `yarn start-client` in separate terminal windows.
 - Browse app in http://localhost:3000/checkout
 
 
